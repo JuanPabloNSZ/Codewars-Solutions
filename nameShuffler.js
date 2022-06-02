@@ -6,3 +6,8 @@ function nameShuffler(str) {
 	str.split(' ').map((x) => newName.unshift(x));
 	return newName.join(' ');
 }
+
+// Other Solution, but this one changes the original array
+function nameShuffler(str) {
+	return str.split(' ').reverse().join(' ');
+}
