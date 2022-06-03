@@ -11,4 +11,4 @@ function descendingOrder(n) {
 }
 
 // Test
-descendingOrder(123456789); // 987654321
+// descendingOrder(145263); // Output: 654321
