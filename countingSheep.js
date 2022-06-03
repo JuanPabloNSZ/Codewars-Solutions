@@ -6,3 +6,8 @@ function countSheeps(arrayOfSheep) {
 	arrayOfSheep.map((x) => (x ? (trueSheep += 1) : false));
 	return trueSheep;
 }
+
+// My other Solution:
+function countSheeps(arr) {
+	return arr.filter(Boolean).length;
+}
