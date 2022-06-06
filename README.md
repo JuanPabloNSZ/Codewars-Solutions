@@ -13,8 +13,8 @@ After studying a programming related subject, I solve a Codewars challenge on th
 
 ## Optimizations
 
-I consistently refactor and optimize my coding solutions for efficiency or readability. 
+I consistently refactor and optimize my coding solutions for efficiency or readability.
 
 ## Lessons Learned:
 
-The Biggest Lesson I learned in this process is about perseverance. There always be a solution for every problem, maybe the answer doesn’t come right away, so it’s important to keep studying to have more tools to tackle the challenges from new perspectives.
+The Biggest Lesson I have learned in this process is about perseverance. There always be a solution for every problem, maybe the answer doesn’t come right away, so it’s important to keep studying to have more tools to tackle the challenges from new perspectives.
