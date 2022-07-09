@@ -26,5 +26,5 @@ function Bee() {
 }
 function banana() {
 	//select some variable to combine "banana"
-	return `${b1}${a2}${n2}${a2}${n2}${a2}`;
+	return `${b2}${a2}${n2}${a2}${n2}${a2}`;
 }
