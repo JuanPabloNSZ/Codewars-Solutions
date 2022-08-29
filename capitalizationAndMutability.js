@@ -15,9 +15,16 @@ Don't worry about numbers, special characters, or non-string types being passed 
 //*Examples:
 // capitalizeWord('i'), 'I')
 // capitalizeWord('glasswear'), 'Glasswear')
-//*Pseudocode:
+//*Pseudocode: Review the original code that the challenge gave us: it has a method that capitalize the first character, but it return the same word passed as a parameter. So: Concatenate the first character already capitalized with the rest of the word. Return the result.
 
 //* My Solution:
 function capitalizeWord(word) {
 	return word[0].toUpperCase() + word.slice(1);
+}
+
+//* My other solution, which uses more string methods:
+function capitalize(word) {
+	let firstChar = word[0].toUpperCase();
+	let restWord = word.slice(1).toLowerCase();
+	return firstChar.concat(restWord);
 }
