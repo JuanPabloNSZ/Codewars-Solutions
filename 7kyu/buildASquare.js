@@ -14,14 +14,17 @@ n = 3, so I expect a 3x3 square back just like below as a string:
 //* My solution:
 function generateShape(integer) {
 	let shape = '';
-	let str = [];
+	let arr = [];
 
+	// Creates a row with n elements of '+' symbol, then push to an array
 	for (let i = 1; i <= integer; i++) {
-		str.push('+');
+		arr.push('+');
 	}
 
+	// Creates n rows of the array;
 	for (let i = 1; i <= integer; i++) {
 		shape += `${str.join('')}\n`;
 	}
+	// Return the group of rows
 	return shape.slice(0, -1);
 }
