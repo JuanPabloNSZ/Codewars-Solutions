@@ -9,7 +9,8 @@
 7 returns "Saturday"
 Otherwise returns "Wrong, please enter a number between 1 and 7" */
 
-//* My solution:
+//* I have a new solution!
+//* This is my old solution:
 function whatday(num) {
 	switch (num) {
 		case 1:
@@ -36,4 +37,18 @@ function whatday(num) {
 		default:
 			return 'Wrong, please enter a number between 1 and 7';
 	}
+}
+
+//* My new solution:
+function whatday(num) {
+	let days = {
+		1: 'Sunday',
+		2: 'Monday',
+		3: 'Tuesday',
+		4: 'Wednesday',
+		5: 'Thursday',
+		6: 'Friday',
+		7: 'Saturday',
+	};
+	return days[num] || 'Wrong, please enter a number between 1 and 7';
 }
