@@ -14,8 +14,8 @@ output = ["Open", "Open", "Senior", "Open", "Open", "Senior"] */
 
 //* My solution:
 function openOrSenior(data) {
-	const analysis = data.map((x) => {
-		if (x[0] >= 55 && x[1] > 7) return 'Senior';
+	const analysis = data.map(([age, handicap]) => {
+		if (age >= 55 && handicap > 7) return 'Senior';
 		else return 'Open';
 	});
 	return analysis;
