@@ -18,11 +18,10 @@ The function passTheDoorMan with a given string word shall return the right numb
 
 //* My solution:
 function passTheDoorMan(word) {
-	//let text = word.split('');
 	let letter = word
 		.split('')
 		.filter(function (x, i, a) {
-			return a[i] === a[i + 1]; // != i;
+			return a[i] === a[i + 1];
 		})
 		.join('');
 	return (letter.charCodeAt(0) - 96) * 3;
